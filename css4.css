@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    background-image: url('assortment-various-barbecue-vegan-food-260nw-1738904081.webp');
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: red;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+ 
+  
+  /* Main column */
+  .main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: rgb(245, 175, 175);
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #f36c6c;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  #firstName{
+    background-color: #f36c6c;
+    margin: 4px 2px;
+    border-color: black;
+    border-radius: 30px;
+    cursor: crosshair;
+    display: inline-block;
+    padding: 10px 10px;
+    color: yellow;
+}
+
+#lastName {
+    background-color: #f36c6c;
+    margin: 4px 2px;
+    border-color: black;
+    border-radius: 30px;
+    cursor: crosshair;
+    display: inline-block;
+    padding: 10px 10px;
+    color: yellow;
+}
+
+#emailInfo {
+    background-color: #f36c6c;
+    margin: 4px 2px;
+    border-color: black;
+    border-radius: 30px;
+    cursor: crosshair;
+    display: inline-block;
+    padding: 10px 10px;
+    color: yellow;
+}
+
+button {
+        background-color: #f36c6c;
+        color: lightgrey;
+        border: none;
+        padding: 10px 32px;
+        text-align: center;
+        font-size: 19px;
+        margin: 4px 2px;
+        cursor: crosshair;
+        border-radius: 42px;
+        font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    color: yellow;
+}
+
+#firstName:hover {
+    background-color: transparent;
+    cursor: text;
+    color: yellow;
+}
+
+#lastName:hover {
+    color: yellow;
+    cursor: text;
+    background-color: transparent;
+}
+
+#emailInfo:hover {
+    color: yellow;
+    cursor: text;
+    background-color: transparent;
+}
+
+.philemail {
+  color: black;
+}
+
+.philemail:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+.btm {
+  text-decoration: none;
+  color: black;
+}
+
+.btm:hover {
+  color: red;
+}
