@@ -76,6 +76,7 @@
     flex: 30%;
     background-color: #f78282;
     padding: 20px;
+    font-size: larger;
   }
   
   /* Main column */
@@ -86,7 +87,19 @@
     padding: 20px;
   }
 
-  
+  .img2 {
+    margin-left: 115px;
+    margin-bottom: 15px;
+  }
+
+  .img3 {
+    margin-bottom: 15px;
+  }
+
+  .img4 {
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
   
   .img5 {
     width: 100%;
